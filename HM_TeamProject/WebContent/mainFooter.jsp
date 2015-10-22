@@ -20,6 +20,7 @@
 </head>
 <body>
    <table class="main_foot">
+   
 	<tr>
    		<td>
 			<input class="main_img02" type="image" src="images/arrow_left.png"/>
