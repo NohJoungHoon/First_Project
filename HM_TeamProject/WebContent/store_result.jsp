@@ -87,7 +87,7 @@ iframe {width: 500px;
 		<tr>
 			<td colspan="2">
 				<p align="left">
-					<div id="iframe"><jsp:include page="List.jsp">	</jsp:include></div>
+					<div id="iframe"><jsp:include page="store_list.jsp">	</jsp:include></div>
 				</p>
 			</td>
 			<td>
