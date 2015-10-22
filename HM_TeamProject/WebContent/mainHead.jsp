@@ -33,15 +33,15 @@ nav{align: center;}
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td><a href="#">eng</a>&nbsp;<a href="#">/cn</a></td>
+				<td><a href="#">eng</a><a href="#">/cn</a></td>
 				
-				<td><a href="#">Log-in</a>&nbsp;<a href="#">/Sign-up</td>
+				<td><a href="#">Log-in</a><a href="join.jsp">/Sign-up</td>
 			</tr>
 			<tr>
 				<td><input class="main_img01" type="image" src="images/location.png"/>&nbsp;
 				<input class="main_img01" type="image" src="images/board.png"/></td>
 				
-				<td><a href="#">Search ID</a>&nbsp;<a href="#">/PW</td>
+				<td><a href="#">Search ID</a><a href="#">/PW</td>
 			</tr>
 		</tbody>
    </table>
