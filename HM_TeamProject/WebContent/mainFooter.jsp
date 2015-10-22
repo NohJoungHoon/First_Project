@@ -29,7 +29,7 @@
 			<input class="main_img02" type="image" src="images/arrow_right.png"/>
 		</td>
 		<td>
-			<input class="main_img02" type="image" src="images/home.png"/>
+			<a href="mainPage.jsp"><input class="main_img02" type="image" src="images/home.png"/></a>
 		</td>
 		<td>
 			<a href="mypage.jsp"><input class="main_img02" type="image" src="images/user.png"/></a>
