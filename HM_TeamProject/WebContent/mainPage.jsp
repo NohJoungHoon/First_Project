@@ -14,8 +14,9 @@
 div {border: 1px dashed silver;
    width: 660px;}
 #main {width: 650px;}  
-a{
-	link-color: BLACK;} 
+a:LINK{
+	color: BLACK;
+	text-decoration:none;} 
 </style>
 </head>
 
