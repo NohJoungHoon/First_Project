@@ -10,10 +10,11 @@
    text-align: center;
    margin: 0 auto;
    padding: 1px; 
-   border-collapse: collapse;}
+   border-collapse: collapse;
+   align: center;}
 div {border: 1px dashed silver;
-   width: 660px;}
-#main {width: 650px;}  
+   width: 810px;
+   }
 a:LINK{
 	color: BLACK;
 	text-decoration:none;} 
@@ -28,11 +29,11 @@ a:LINK{
 <article>
    <table>
       <tr>
-         <td colspan="3"><img src="http://placehold.it/650x200"/></td>
+         <td colspan="3"><img src="http://placehold.it/800x200"/></td>
       </tr>
       <tr>
          <td colspan="2"><img src="http://placehold.it/500x300"/></td>
-         <td><img src="http://placehold.it/150x300"/></td>
+         <td><img src="http://placehold.it/300x300"/></td>
       </tr>
    </table>
 </article>

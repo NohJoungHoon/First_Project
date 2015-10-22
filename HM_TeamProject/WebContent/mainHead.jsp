@@ -11,14 +11,9 @@
    margin: 0 auto;
    padding: 1px; 
    border-collapse: collapse;}
-div {border: 1px dashed silver;
-   width: 660px;}
-.main_head_table {width: 650px;}   
+.main_head_table {width: 800px;}   
 .main_img01{width: 20px; height: 20px;}
-
-
 .login{ text-align: left;}
-th { text-align: left;}
 nav{align: center;}
 
 </style>
@@ -29,19 +24,19 @@ nav{align: center;}
 		<tbody>
 			<tr>
 				<td>&nbsp;</td>
-				<td class="team_name" rowspan="4"><img src="http://placehold.it/250x70"/></td>
+				<td class="team_name" rowspan="3" align="center"><img src="http://placehold.it/300x70"/></td>
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
 				<td><a href="#">eng</a><a href="#">/cn</a></td>
 				
-				<td><a href="#">Log-in</a><a href="join.jsp">/Sign-up</td>
+				<td align="left"><a href="#">Log-in</a><a href="join.jsp">/Sign-up</td>
 			</tr>
 			<tr>
 				<td><input class="main_img01" type="image" src="images/location.png"/>&nbsp;
 				<a href="board_list.jsp"><input class="main_img01" type="image" src="images/board.png"/></a></td>
 				
-				<td><a href="#">Search ID</a><a href="#">/PW</td>
+				<td align="left"><a href="#">Search ID</a><a href="#">/PW</td>
 			</tr>
 		</tbody>
    </table>

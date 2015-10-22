@@ -16,7 +16,7 @@ font-family: "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS
 		"Lucida Grande", Verdana, Helvetica, sans-serif;
 background: linner-gradient(to bottom, #FFFFFF 0%, #F2F2F2 100%);
 /*border-bottom: 2px solid RED;*/
-width: 650px;
+width: 800px;
 }
 .topmenu a{
 	link-color: BLACK;

@@ -10,7 +10,7 @@
    text-align: center;
 }
 .main_foot {
-   width: 650px;
+   width: 800px;
    border-top: 1px dashed silver;
    background-color: RED;
    color: WHITE;
