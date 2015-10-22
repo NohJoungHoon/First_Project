@@ -37,9 +37,8 @@
 			<input class="main_img02" type="image" src="images/ect.png"/>
 		</td>
 	</tr>   	  	
-   	  </tr>
       <tr>
-         <td>Copyright@오늘korea</td>
+         <td colspan="5">Copyright@오늘korea</td>
       </tr>
    </table>
 </body>
