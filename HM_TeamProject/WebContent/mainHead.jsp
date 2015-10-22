@@ -39,7 +39,7 @@ nav{align: center;}
 			</tr>
 			<tr>
 				<td><input class="main_img01" type="image" src="images/location.png"/>&nbsp;
-				<input class="main_img01" type="image" src="images/board.png"/></td>
+				<a href="board_list.jsp"><input class="main_img01" type="image" src="images/board.png"/></a></td>
 				
 				<td><a href="#">Search ID</a><a href="#">/PW</td>
 			</tr>
