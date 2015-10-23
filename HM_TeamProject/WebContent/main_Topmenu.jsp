@@ -136,7 +136,7 @@ border-bottom: none;
 <body>
 <div class="topmenu">
 	<ul>
- 		<li><a href="#"><span>Home</span></a></li>
+ 		<li><a href="mainPage.jsp"><span>Home</span></a></li>
 		<li class='active menu'><a href="#"><span>가전제품</span></a>
 			<ul>
 				<li class='sub01'><a href="#">컴퓨터</a></li>
