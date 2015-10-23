@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+<style>
+.join01 {
+	font-size: 9px;
+}
+
+.join02 {
+	font-size: 9px;
+	text-align: right;
+	border-collapse: collapse;
+}
+
+.join_legend01, .join_lgeend02 {
+	font-size: 13px;
+	width: auto;
+}
+
+.join_table01, .join_table02 {
+	border-collapse: collapse;
+	width: auto;
+}
+.join_th01{
+	font-size: 13px;
+	text-align: left;
+	background-color: #C0C0C0;
+	padding: 10px 0px 10px 0px;
+	width:150px;
+}
+.join_td02{
+	font-size:12px;
+	background-color: #E9E9E9;
+	padding: 8px 0px 8px 0px;
+}
+</style>
