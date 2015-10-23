@@ -4,16 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>main_head</title>
+<title>mainHead(SEARCH)</title>
+<link href="allPage.css" type="text/css" rel="stylesheet">
 <style>
-* {
-	font-size: 13px;
-	text-align: center;
-	margin: 0 auto;
-	padding: 1px;
-	border-collapse: collapse;
-}
-
 .mainHead_table01 {
 	width: 800px;
 } /*mainHead 넓이*/
@@ -51,7 +44,7 @@ nav {
 							type="image" src="images/cn.jpg" /></a></td>
 
 					<!-- 로그인이랑 가입하기 -->
-					<td align="left"><a href="#">Log-in</a><a href="join.jsp">/Join
+					<td align="left"><a href="loginPage.jsp">Log-in</a><a href="joinPage.jsp">/Join
 							us</a></td>
 				</tr>
 
@@ -62,7 +55,7 @@ nav {
 							class="main_img01" type="image" src="images/board.png" /></a></td>
 
 					<!-- 아이디 비번 찾기 -->
-					<td align="left"><a href="#">Search ID/PW</a></td>
+					<td align="left"><a href="searchPage.jsp">Search ID/PW</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -73,11 +66,11 @@ nav {
 				<td><jsp:include page="mainTopmenu.jsp"></jsp:include></td>
 			</tr>
 		</table>
-	</nav>
+	</nav><br/>
 	<table>
 		<tr>
-			<td colspan="3"><span id="nameContents"><input id="name"
-					name="name" maxlength="20" type="text" /></span>&nbsp; <input id="search"
+			<td colspan="3"><span id="searchContents"><input id="mainPage_search"
+					name="search" maxlength="30" type="text" /></span>&nbsp; <input id="search"
 				type="submit" value="찾기">
 		</tr>
 	</table>

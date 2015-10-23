@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Join Page</title>
-<link href="join.css" type="text/css" rel="stylesheet">
+<link href="join.css, allPage.css" type="text/css" rel="stylesheet">
 <script>
 	function checkemailaddy() {
 		if (form.email_select.value == '1') {
@@ -24,7 +24,7 @@
 
 		<header>
 			<!-- 메인 헤드 부분 상속 -->
-			<jsp:include page="mainHead.jsp"></jsp:include>
+			<jsp:include page="mainHead02.jsp"></jsp:include>
 		</header>
 
 		<div class="join01">
@@ -114,7 +114,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scop="row" class="join_th01"><img
+							<th scope="row" class="join_th01"><img
 								src="images/bullet_checked.gif">이메일</th>
 							<form name="form" method="post">
 							<td class="join_td01">&nbsp; <input id="email01"
@@ -134,11 +134,10 @@
 									<option value="gmail.com">gmail.com</option>
 									<option value="1">직접입력</option>
 							</select>
-
 							</td>
 						</tr>
 						<tr>
-							<th scop="row" class="join_th01"><img
+							<th scope="row" class="join_th01"><img
 								src="images/bullet_checked.gif">성별</th>
 							<td class="join_td01">&nbsp;<input id="gender01"
 								type="radio" name="gender01">남자&nbsp;<input

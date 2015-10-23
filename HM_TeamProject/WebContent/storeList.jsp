@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>맛집 리스트</title>
+<title>STORE LIST</title>
+<link href="allPage.css" type="text/css" rel="stylesheet">
 <style>
-* { text-align: left;
-	padding: 1px;
-	margin: 0 auto;
-	border-collapse: collapse;
-	font-size: 12px;}	
 .storelist_table01 { width: auto;}
 .storelist_th01 {text-align: left;
 	border-top: 1px dotted silver;

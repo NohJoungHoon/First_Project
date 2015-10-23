@@ -1,25 +1,5 @@
 @CHARSET "UTF-8";
 
-<
-style>* {
-	font-size: 12px; /*전체 페이지에 대한 스타일*/
-	margin: 0 auto;
-	padding: 1px;
-	border-collapse: collapse;
-	align: center;
-	text-family: 나눔고딕, verdana;
-}
-
-.outline {
-	border: 1px dashed silver; /*전체 페이지에 나오는 회색 선 <div class="outline"*/
-	width: 810px;
-}
-
-a:LINK { /*링크되어 있는 모든 것 색깔없애고, 밑 줄 없애기*/
-	color: BLACK;
-	text-decoration: none;
-}
-
 fieldset {
 	border: 1px solid WHITE;
 }
@@ -106,6 +86,3 @@ fieldset {
 .agree-title {
 	font-weight: 700;
 }
-</
-style
->

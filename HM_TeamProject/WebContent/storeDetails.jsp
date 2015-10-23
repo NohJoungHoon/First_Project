@@ -4,21 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>세부페이지</title>
+<title>STORE 세부페이지</title>
+<link href="allPage.css" type="text/css" rel="stylesheet">
 <style>
-* {font-size: 12px;
-   text-align: center;
-   margin: 0 auto;
-   padding: 1px; 
-   border-collapse: collapse;
-   align: center;}
-.outline {border: 1px dashed silver;
-   width: 810px;
-   }
-a:LINK{
-	color: BLACK;
-	text-decoration:none;} 
-
 article li { list-style: none;
 	text-align: left;}
 
@@ -29,7 +17,7 @@ article li { list-style: none;
 <body>
 <div class="outline">
 <header><!-- mainHead -->
-	   <jsp:include page="mainHead.jsp"></jsp:include>
+	   <jsp:include page="mainHead01.jsp"></jsp:include>
 </header>
 
 <article>

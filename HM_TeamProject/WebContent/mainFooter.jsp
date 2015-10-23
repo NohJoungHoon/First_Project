@@ -6,9 +6,6 @@
 <meta charset="UTF-8">
 <title>mainFooter</title>
 <style>
-* {
-	text-align: center;
-}
 .mainFooter_table01 {
 	width: 800px;
 	border-top: 1px dashed silver;
