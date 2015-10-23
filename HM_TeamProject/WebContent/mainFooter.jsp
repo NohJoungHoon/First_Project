@@ -28,12 +28,12 @@
 			<td><input class="main_img02" type="image" src="images/arrow_left.png" onClick="history.go(-1)"/></td>
 			<td><input class="main_img02" type="image" src="images/arrow_right.png" onClick="history.go(1)"/></td>
 			<td><a href="mainPage.jsp"><input class="main_img02" type="image" src="images/home.png" /></a></td>
-			<td><a href="mypage.jsp"><input class="main_img02" type="image" src="images/user.png" /></a></td>
+			<td><a href="myPage.jsp"><input class="main_img02" type="image" src="images/user.png" /></a></td>
 			<td><input class="main_img02" type="image" src="images/ect.png" />
 			</td>
 		</tr>
 		<tr>
-			<td colspan="5">Copyright@오늘korea</td>
+			<td colspan="5">Copyright@오늘Korea</td>
 		</tr>
 	</table>
 </body>

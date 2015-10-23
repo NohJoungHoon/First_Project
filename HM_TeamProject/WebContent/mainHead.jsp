@@ -74,5 +74,13 @@ nav {
 			</tr>
 		</table>
 	</nav>
+	<table>
+		<tr>
+			<td colspan="3"><span id="nameContents"><input id="name"
+					name="name" maxlength="20" type="text" /></span>&nbsp; <input id="search"
+				type="submit" value="찾기">
+		</tr>
+	</table>
+	<br />
 </body>
 </html>
