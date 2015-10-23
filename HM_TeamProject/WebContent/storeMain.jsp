@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>검색결과</title>
+<title>STORE 메인</title>
 <style>
 * {font-size: 12px;
    text-align: center;
@@ -12,38 +12,39 @@
    padding: 1px; 
    border-collapse: collapse;
    align: center;}
-div {border: 1px dashed silver;
+.outline {border: 1px dashed silver;
    width: 810px;
    }
 a:LINK{
 	color: BLACK;
 	text-decoration:none;} 
-th { text-align: left;}
-iframe {width: 500px;
-	height:300px;
-	border: 0;}
-</style>
-</head>
 
-<!--  body -->
+</style>
+
+</head>
 <body>
-<div>
-<header>
+<div class="outline">
+<header><!-- mainHead -->
 	   <jsp:include page="mainHead.jsp"></jsp:include>
 </header>
+
 <article>
-	<table>
-		<tr>
-			<td colspan="3">카테고리<img src="http://placehold.it/650x20"/></td>
+	<table class="store_main">
+		<tr> <!-- 카테고리 대분류 소분류 들어가야 함 -->
+			<td class="storeMain_td01" colspan="3">
+			<img src="http://placehold.it/800x20"/></td>
 		</tr>
-		<tr>
-			<td colspan="3"><img src="http://placehold.it/650x300"/></td>
+		
+		<tr> <!-- 핫클립 -->
+			<td class="storeMain_td02" colspan="3">
+			<img src="http://placehold.it/800x300"/></td>
 		</tr>
-		<tr>
-			<td colspan="2">
-				<jsp:includ page="store_list.jsp" flush="true"></jsp:includ>
-			</td>
-			<td>
+		
+		<tr> <!-- 스토어 리스트 -->
+			<td class="storeMain_td03" colspan="2" rowspan="5">
+		 	 <jsp:include page="storeList.jsp"></jsp:include> 
+			</td><!-- 배너 -->
+			<td class="storeMain_td04">
 				<img src="http://placehold.it/150x300"/>
 			</td>
 		</tr>
