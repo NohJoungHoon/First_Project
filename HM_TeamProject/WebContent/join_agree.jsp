@@ -68,14 +68,7 @@
 				</div>
 			</fieldset>
 		</div>
-		<!--agree1-->
-	</div>
-	</div>
-	</div>
-	</section>
-	</div>
-	<!--wrap-->
-
+		</div>
 
 </body>
 </html>

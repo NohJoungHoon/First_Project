@@ -1,23 +1,39 @@
 @CHARSET "UTF-8";
 <style>
+* {
+	font-size: 12px; /*전체 페이지에 대한 스타일*/
+	margin: 0 auto;
+	padding: 1px;
+	border-collapse: collapse;
+	align: center;
+	text-family: 나눔고딕, verdana;
+}
+
+.outline {
+	border: 1px dashed silver; /*전체 페이지에 나오는 회색 선 <div class="outline"*/
+	width: 810px;
+}
+
+a:LINK { /*링크되어 있는 모든 것 색깔없애고, 밑 줄 없애기*/
+	color: BLACK;
+	text-decoration: none;
+}
+fieldset{border: 1px solid WHITE;}
 .join01 {
 	font-size: 9px;
 }
-
 .join02 {
 	font-size: 9px;
 	text-align: right;
 	border-collapse: collapse;
 }
-
 .join_legend01, .join_lgeend02 {
 	font-size: 13px;
-	width: auto;
+	width: 800px;
 }
-
 .join_table01, .join_table02 {
 	border-collapse: collapse;
-	width: auto;
+	width: 790px;
 }
 .join_th01{
 	font-size: 13px;
@@ -25,10 +41,24 @@
 	background-color: #C0C0C0;
 	padding: 10px 0px 10px 0px;
 	width:150px;
+	border-top: 1px dotted silver;
+	border-bottom: 1px dotted silver;
 }
-.join_td02{
+.join_td01{
 	font-size:12px;
-	background-color: #E9E9E9;
+	background-color: WHITE;
 	padding: 8px 0px 8px 0px;
+	text-align: left;
+	border-top: 1px dotted silver;
+	border-bottom: 1px dotted silver;
 }
+/*개인정보이용>이용약관*/
+.agree01{position:relative;margin:0 auto;width:100%;margin-bottom:10px;font-size:12px;}
+.agree01 b{color:#393939;}
+.agree01 p{font-size:12px;}
+.agree01 p.right{float:right;font-size:11px;}
+.agree_fieldset01{clear:both;float:left;width:96%;height:200px;padding:15px;margin:5px 0;border:1px solid #dcdcdc;}
+.agree_fieldset01 a:hover{text-decoration:underline;}
+.agree_fieldset01 p{margin-bottom:5px;}
+.agree-title{font-weight:700;}
 </style>
