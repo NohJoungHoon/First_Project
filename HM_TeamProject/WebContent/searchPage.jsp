@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>LOG-IN</title>
-<link href="allPage.css" type="text/css" rel="stylesheet">
+<link href="css/allPage.css" type="text/css" rel="stylesheet">
 <script>
 	function checkemailaddy() {
 		if (form.email_select.value == '1') {

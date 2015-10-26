@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>STORE LIST</title>
-<link href="allPage.css" type="text/css" rel="stylesheet">
+<link href="css/allPage.css" type="text/css" rel="stylesheet">
 <style>
 .storelist_table01 { width: auto;}
 .storelist_th01 {text-align: left;

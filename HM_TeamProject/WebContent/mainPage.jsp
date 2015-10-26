@@ -5,7 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Main Page</title>
-<link href="allPage.css" type="text/css" rel="stylesheet">
+<link href="css/allPage.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body>

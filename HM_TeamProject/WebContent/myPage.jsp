@@ -7,7 +7,7 @@
 <meta http-equiv="imagetoolbar" content="no">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <title>My page</title>
-<link href="allPage.css" type="text/css" rel="stylesheet">
+<link href="css/allPage.css" type="text/css" rel="stylesheet">
 <style>
 .top_style {
 	

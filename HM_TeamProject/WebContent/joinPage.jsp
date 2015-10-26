@@ -5,7 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Join Page</title>
-<link href="join.css, allPage.css" type="text/css" rel="stylesheet">
+<link href="css/allPage.css" type="text/css" rel="stylesheet">
+<link href="css/joinPage.css" type="text/css" rel="stylesheet">
 <script>
 	function checkemailaddy() {
 		if (form.email_select.value == '1') {

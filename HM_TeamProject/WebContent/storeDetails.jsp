@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>STORE 세부페이지</title>
-<link href="allPage.css" type="text/css" rel="stylesheet">
+<link href="css/allPage.css" type="text/css" rel="stylesheet">
 <style>
 article li { list-style: none;
 	text-align: left;}
